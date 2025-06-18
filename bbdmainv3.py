@@ -398,7 +398,8 @@ def load_historical_data():
         
         # Find all data files
         for data_file in data_dir.glob("*.pkl"):
-            metadata_file = data_file.with_suffix('').with_suffix('_metadata.json')
+            # Build corresponding metadata filename
+            metadata_file = data_file.parent / f"{data_file.stem}_metadata.json"
             
             if metadata_file.exists():
                 with open(metadata_file, 'r') as f:
