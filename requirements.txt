@@ -2,4 +2,11 @@ streamlit
 pandas
 numpy
 plotly.express
+plotly.graph_objects
 datetime
+warnings
+json
+requests
+os
+pickle
+pathlib
