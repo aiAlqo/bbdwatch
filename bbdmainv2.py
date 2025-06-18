@@ -6,7 +6,7 @@ import numpy as np
 import plotly.express as px
 from datetime import datetime
 
-st.set_page_config(page_title="Raw Material Expiry Dashboard", layout="wide")
+st.set_page_config(page_title="Best Before Date Analysis", layout="wide")
 st.title("📦 BBD Watch Dashboard")
 
 # --- SIDEBAR SETTINGS ---
