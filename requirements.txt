@@ -2,8 +2,7 @@ streamlit
 pandas
 numpy
 plotly
-datetime
-warnings
+Datetime
 json
 requests
 os
