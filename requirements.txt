@@ -2,9 +2,4 @@ streamlit
 pandas
 numpy
 plotly
-Datetime
-json
 requests
-os
-pickle
-pathlib
